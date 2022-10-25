@@ -1,12 +1,8 @@
-import { Fragment } from "react";
+import NavBar from './components/NavBar';
 
 function App() {
   return(
-    <Fragment>
-      <h1>Hello World!</h1>
-      <hr></hr>
-      <p>Hola coders.</p>
-    </Fragment>
+    <NavBar/>
   )
 }
 
