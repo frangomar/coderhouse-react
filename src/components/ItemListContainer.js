@@ -1,7 +1,11 @@
-import '../assets/navBar.css';
+import React from 'react';
+import '../assets/css/itemListContainer.css';
 const ItemListContainer = () => {
     return (
-        <p></p>
+        <body>
+            <p>pantalones</p>
+        </body>
+        
     )
 }
 

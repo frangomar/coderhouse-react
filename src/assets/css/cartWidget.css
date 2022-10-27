@@ -1,0 +1,10 @@
+.cart-container {
+    color: black;
+    font-size: 30px;
+    padding-right:20px ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+}

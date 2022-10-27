@@ -1,8 +1,10 @@
-import '../assets/navBar.css';
+import React from 'react';
+import '../assets/css/navBar.css';
 import './CartWidget'
 import CartWidget from './CartWidget';
 const NavBar = () => {
     return (
+        <header>
         <div className="navbar">
             <a href='#'>
                 <div className="logo-container">
@@ -16,6 +18,7 @@ const NavBar = () => {
             </ul>
             <CartWidget/>
         </div>
+        </header>
     )
 }
 

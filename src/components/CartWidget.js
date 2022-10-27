@@ -1,8 +1,9 @@
-import '../assets/cartWidget.css';
+import '../assets/css/cartWidget.css';
+import { BsFillCartFill } from 'react-icons/bs';
 const CartWidget = () => {
     return (
         <div className='cart-container'>
-            <h1 className='cart'>hola</h1>
+            <a href='#'><BsFillCartFill /></a>
         </div>
     )
 }
