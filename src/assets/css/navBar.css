@@ -12,7 +12,7 @@ header {
 .navbar {
     margin: auto;
     background-color: rgb(86, 235, 230);
-    width: 90%; 
+    width: 100%; 
     padding-left: 30px;
     padding-right: 10px;
     display: flex;

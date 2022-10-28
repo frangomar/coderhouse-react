@@ -1,11 +1,11 @@
 import React from 'react';
 import '../assets/css/itemListContainer.css';
-const ItemListContainer = () => {
+const ItemListContainer = (props) => {
     return (
-        <body>
-            <p>pantalones</p>
-        </body>
-        
+        <div className='prop'>
+            {props.greeting}
+            <img src= {props.imagen} alt='' />
+        </div>
     )
 }
 
