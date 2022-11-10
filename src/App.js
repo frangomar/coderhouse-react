@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import './App.css'
 import indraYaLlega from './assets/img/indraYaLlega.png'
-function App() {
+const App = () => {
   return(
     <>
     <NavBar/>
